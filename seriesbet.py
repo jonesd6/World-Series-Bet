@@ -12,8 +12,8 @@ def game_outcome(bankroll, bet):
 		bet: Size of bet to be placed in concurrent game in series.
 
 	"""
-	game_conclusion = random.randint(0, 1)
-	print(game_conclusion)
+    game_conclusion = random.randint(0, 1)
+    print(game_conclusion)
     return bankroll, bet
 
 def main():
